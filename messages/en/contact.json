@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Contact Abu Sara Jewelry | Visit Our Amman Boutique",
+    "description": "Get in touch with Abu Sara Jewelry. Visit our Amman boutique, call us, or send a message for custom jewelry designs and inquiries.",
+    "keywords": ["contact Abu Sara Jewelry", "Amman jewelry store", "custom jewelry contact", "jewelry boutique Amman", "Abu Sara phone address"]
+  },
+  "eyebrow": "Get in Touch",
+  "title1": "Get in",
+  "title2": "Touch",
+  "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "info": {
+    "items": {
+      "address": {
+        "title": "Visit Us"
+      },
+      "phone": {
+        "title": "Call Us"
+      },
+      "whatsapp": {
+        "title": "Message on WhatsApp"
+      },
+      "hours": {
+        "title": "Business Hours"
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Send Us a Message",
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your inquiry...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "reset": "Reset",
+    "success": "Thank you! Your message has been sent successfully. We'll contact you soon.",
+    "error": "Something went wrong. Please try again.",
+    "networkError": "Network error. Please check your connection and try again.",
+    "validation": {
+      "nameRequired": "Full name is required",
+      "phoneRequired": "Phone number is required",
+      "messageMin": "Message must be at least 10 characters long"
+    }
+  }
+}

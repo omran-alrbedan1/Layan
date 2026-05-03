@@ -1,0 +1,66 @@
+{
+  "policies": "Purchase Policies",
+  "eyebrow": "Purchase Policies",
+  "hero": {
+    "title": "Our Commitment to You",
+    "subtitle": "Clear policies and transparent processes to ensure your confidence in every purchase."
+  },
+  "sections": {
+    "pricing": {
+      "title": "Pricing Policy",
+      "text": "All prices are quoted in Jordanian Dinars (JOD) and are based on current gold market rates plus craftsmanship fees. Prices are subject to change based on market fluctuations."
+    },
+    "confirmation": {
+      "title": "Order Confirmation",
+      "text": "Custom orders require a 50% deposit to begin work. The remaining balance is due upon completion and before delivery. We provide detailed receipts for all transactions."
+    },
+    "exchange": {
+      "title": "Exchange Policy",
+      "text": "Exchanges are permitted within 7 days of purchase for items of equal or greater value. Items must be in original condition with all tags and packaging intact."
+    },
+    "returns": {
+      "title": "Return Policy",
+      "text": "Custom-designed pieces are non-returnable. Ready-made pieces may be returned within 3 days of purchase in original condition. A 15% restocking fee applies."
+    },
+    "custom": {
+      "title": "Custom Design Policy",
+      "text": "Custom designs require detailed consultation and approval at each stage. Once production begins, modifications may incur additional charges. Final approval is required before delivery."
+    },
+    "shipping": {
+      "title": "Shipping & Delivery",
+      "text": "Local delivery within Amman is complimentary. International shipping is available through secure courier services. All shipments are fully insured."
+    },
+    "warranty": {
+      "title": "Warranty & Service",
+      "text": "All pieces come with a lifetime warranty against manufacturing defects. Complimentary cleaning and inspection services are provided for the first year."
+    },
+    "payment": {
+      "title": "Payment Methods",
+      "text": "We accept cash, bank transfers, and major credit cards. Payment plans are available for purchases over 500 JOD with approved credit."
+    }
+  },
+  "faq": {
+    "eyebrow": "Policy Questions",
+    "title": "Frequently Asked Questions",
+    "1": {
+      "q": "Can I modify my custom design after production starts?",
+      "a": "Modifications after production begins may be possible but will incur additional charges and delays. Major changes may require starting over."
+    },
+    "2": {
+      "q": "Do you offer payment plans for large purchases?",
+      "a": "Yes, we offer flexible payment plans for purchases over 500 JOD. Terms and conditions apply."
+    },
+    "3": {
+      "q": "How do I care for my jewelry?",
+      "a": "We provide detailed care instructions with each purchase. Complimentary cleaning services are available for the first year."
+    },
+    "4": {
+      "q": "What happens if my jewelry needs repair?",
+      "a": "We offer repair services for all our pieces. Warranty covers manufacturing defects, while other repairs are quoted separately."
+    },
+    "5": {
+      "q": "Can I track my custom order progress?",
+      "a": "Yes, we provide regular updates and photos throughout the custom design process. You can also contact us anytime for status updates."
+    }
+  }
+}

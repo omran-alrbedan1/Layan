@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "Our Story Since 1921 | Abu Sara Jewelry Heritage",
+    "description": "Discover Abu Sara Jewelry's century-long heritage of trust and craftsmanship. From Jaffa to Amman, three generations of Jordan's finest jewelers.",
+    "keywords": ["Abu Sara heritage", "Jordan jewelry history", "jewelry since 1921", "Amman jewelers", "family jewelry business Jordan"]
+  },
+  "eyebrow": "Our Story",
+  "title1": "A Legacy of",
+  "title2": "Trust & Craftsmanship",
+  "subtitle": "From Jaffa to Amman - three generations of Jordan's most trusted family jewelers.",
+  "quote": "Excellence in jewelry is not just about gold and gems, but about the trust we build with every piece we create.",
+  "video": {
+    "title": "Our Story",
+    "description1": "Experience the rich heritage and craftsmanship that defines our jewelry. Each piece tells a story of tradition, quality, and artistic excellence passed down through generations.",
+    "description2": "From our humble beginnings in 1921 to today, we continue to honor the legacy of fine jewelry making while embracing contemporary design sensibilities."
+  },
+  "missionVision": {
+    "eyebrow": "Our Purpose",
+    "title1": "Our Mission &",
+    "title2": "Vision",
+    "subtitle": "Guided by tradition, driven by excellence, and committed to creating timeless pieces that celebrate life's most precious moments.",
+    "missionTitle": "Our Mission",
+    "missionText": "To create exceptional jewelry that combines traditional craftsmanship with contemporary design, providing our clients with timeless pieces that celebrate life's most precious moments while maintaining the highest standards of quality and integrity.",
+    "visionTitle": "Our Vision",
+    "visionText": "To be Jordan's most trusted and beloved jewelry brand, continuing our century-long legacy of excellence while embracing innovation and sustainable practices that will benefit future generations."
+  },
+  "timelineEyebrow": "Our Journey",
+  "timelineTitle1": "A Century",
+  "timelineTitle2": "of Excellence",
+  "visit": "Visit Our Boutique",
+  "heritage": {
+    "eyebrow": "Our Heritage",
+    "title1": "Three Generations",
+    "title2": "of Excellence",
+    "subtitle": "From a humble workshop in Jaffa to becoming Jordan's most trusted family jewelers, our story spans over a century of dedication to craftsmanship and customer trust.",
+    "since": "Since",
+    "founderCaption": "Yousef Hasan Abu Sara, founder of Abu Sara Jewelry",
+    "visitUs": "Visit Our Boutique",
+    "chapter1": "Chapter One",
+    "chapter1Title1": "From Jaffa",
+    "chapter1Title2": "to Amman",
+    "chapter1Text1": "Our journey began in 1921 when Yousef Hasan Abu Sara opened his first workshop in Jaffa, laying the foundation for what would become Jordan's most trusted jewelry brand.",
+    "chapter1Text2": "With a commitment to exceptional craftsmanship and honest business practices, the reputation of Abu Sara Jewelry grew throughout the region.",
+    "chapter2": "Chapter Two",
+    "chapter2Title1": "Building a",
+    "chapter2Title2": "Legacy",
+    "chapter2Text": "Through decades of dedication, we've established ourselves as Jordan's premier destination for fine jewelry, serving generations of families with integrity and excellence.",
+    "marketCaption": "The historic Goldsmith's Market in old Amman",
+    "address": "Address",
+    "addressText": "Sweifieh, Amman, Jordan",
+    "phone": "Phone",
+    "getDirections": "Get Directions"
+  },
+  "timeline": {
+    "1921": {
+      "title": "The Beginning in Jaffa",
+      "text": "Our story begins in 1921 in Jaffa, where our founder established the first Abu Sara Jewelry workshop with a commitment to exceptional craftsmanship and honest business practices."
+    },
+    "1970": {
+      "title": "Expansion to Amman",
+      "text": "In the 1970s, we expanded our operations to Amman, Jordan, bringing our expertise and reputation for quality to the growing capital city."
+    },
+    "2000": {
+      "title": "Sweifieh Flagship",
+      "text": "The 2000s saw the opening of our flagship boutique in Sweifieh, establishing us as a premier destination for fine jewelry in Jordan."
+    },
+    "today": {
+      "title": "Continuing the Legacy",
+      "text": "Today, the third generation of the Abu Sara family continues our tradition of excellence, combining time-honored techniques with modern innovation."
+    }
+  }
+}

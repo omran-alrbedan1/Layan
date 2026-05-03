@@ -1,0 +1,62 @@
+{
+  "fineSince": "Fine jewelry since",
+  "callUs": "Call Us",
+  "visitUs": "Visit Us",
+  "address": "Address",
+  "phone": "Phone",
+  "getDirections": "Get Directions",
+  "whatsapp": {
+    "text": "Chat on WhatsApp",
+    "message": "Hello, I'm interested in your jewelry collection. Could you provide more information?"
+  },
+  "inquire": "Inquire About a Piece",
+  "viewDetail": "View Detail",
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "close": "Close",
+  "cancel": "Cancel",
+  "save": "Save",
+  "edit": "Edit",
+  "delete": "Delete",
+  "search": "Search",
+  "filter": "Filter",
+  "sort": "Sort",
+  "next": "Next",
+  "previous": "Previous",
+  "page": "Page",
+  "of": "of",
+  "results": "Results",
+  "noResults": "No results found",
+  "tryAgain": "Try Again",
+  "back": "Back",
+  "continue": "Continue",
+  "submit": "Submit",
+  "sending": "Sending...",
+  "sent": "Sent",
+  "failed": "Failed",
+  "retry": "Retry",
+  "secondary": "Secondary",
+  "rights": "All Rights Reserved",
+  "crafted": "Crafted",
+  "category": {
+    "all": "All",
+    "rings": "Rings",
+    "necklaces": "Necklaces",
+    "bracelets": "Bracelets",
+    "pendants": "Pendants",
+    "earrings": "Earrings"
+  },
+  "empty": "No items found",
+  "contact": {
+    "hours": "Sun-Thu: 10:00 AM - 7:00 PM",
+    "address": "Amman, Jordan",
+    "email": "info@abusarajewelry.com",
+    "phone": "+962 6 5555 5555"
+  },
+  "business": {
+    "title": "Business Hours"
+  },
+  "copyright": "All rights reserved",
+  "poweredBy": "Powered by"
+}

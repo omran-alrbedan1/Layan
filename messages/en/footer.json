@@ -1,0 +1,27 @@
+{
+  "description": "Trusted Jordanian jewelers since 1921. Our family-owned business crafts exquisite custom jewelry blending traditional craftsmanship with modern elegance from our Amman boutique.",
+  "contact": {
+    "title": "Contact Us",
+    "address": "Sweifieh, Amman, Jordan",
+    "email": "info@abusarajewelry.com",
+    "phone": "+962 777 616 777",
+    "hours": "Sun-Thu: 10:00 - 19:00"
+  },
+  "navigation": {
+    "title": "Quick Links",
+    "about": "About Us",
+    "contact": "Contact",
+    "custom-design": "Custom Design"
+  },
+  "business": {
+    "title": "Business Hours",
+    "sundayThursday": "Sunday - Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "closed": "Closed",
+    "sundayThursdayHours": "10:00 AM - 7:00 PM",
+    "saturdayHours": "11:00 AM - 5:00 PM"
+  },
+  "copyright": "© 2026 Abu Sara Jewelry. All Rights Reserved.",
+  "poweredBy": "Powered by"
+}
