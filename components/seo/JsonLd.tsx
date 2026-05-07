@@ -2,7 +2,7 @@ export function JewelryStoreSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "JewelryStore",
-    name: "ابو سارة للمجوهرات",
+    name: " ابو سارة للمجوهرات",
     url: "https://abusarajewelry.com",
     logo: "https://abusarajewelry.com/assets/logo-as.jpg",
     image: "https://abusarajewelry.com/assets/logo-as.jpg",
@@ -40,7 +40,7 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ابو سارة للمجوهرات",
+    name: " ابو سارة للمجوهرات",
     url: "https://abusarajewelry.com",
     logo: "https://abusarajewelry.com/assets/logo-as.jpg",
     foundingDate: "1921",
@@ -70,7 +70,7 @@ export function CustomDesignServiceSchema() {
     url: "https://abusarajewelry.com/ar/custom-design",
     provider: {
       "@type": "JewelryStore",
-      name: "ابو سارة للمجوهرات",
+      name: " ابو سارة للمجوهرات",
     },
     areaServed: {
       "@type": "Country",

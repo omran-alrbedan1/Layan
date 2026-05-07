@@ -9,7 +9,7 @@ import {
   ServicesSection,
 } from '@/components/custom-design';
 import { getCustomDesignMetadata } from '../metadata/custom-design';
-import { CustomDesignServiceSchema, FAQSchema } from '@/components/seo/JsonLd';
+import { CustomDesignServiceSchema } from '@/components/seo/JsonLd';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
