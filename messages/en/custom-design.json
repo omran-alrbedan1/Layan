@@ -53,8 +53,12 @@
       "dragDropText": "Drag & drop or click to upload",
       "maxSizeText": "Max size: {size}MB",
       "sizeError": "Image size should be less than {size}MB",
+      "typeError": "File type not supported. Supported types: {types}",
       "previewAlt": "Preview",
-      "removeButton": "Remove file"
+      "removeButton": "Remove file",
+      "removeImage": "Remove image",
+      "removeFile": "Remove file",
+      "dropzoneLabel": "File upload area"
     },
   "validation": {
       "fullNameRequired": "Full name is required",

@@ -1,20 +1,19 @@
-// Jewelry store — local business
 export function JewelryStoreSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "JewelryStore",
-    name: "Abu Sara Jewelry",
+    name: "ابو سارة للمجوهرات",
     url: "https://abusarajewelry.com",
     logo: "https://abusarajewelry.com/assets/logo-as.jpg",
     image: "https://abusarajewelry.com/assets/logo-as.jpg",
-    description: "Premium gold jewelry and custom design services in Amman, Jordan. Established 1921.",
+    description: "مجوهرات ذهبية فاخرة وخدمات تصميم مخصص في عمان، الأردن. تأسست عام 1921.",
     foundingDate: "1921",
     telephone: "+962777616777",
     address: {
       "@type": "PostalAddress",
       addressCountry: "JO",
-      addressLocality: "Amman",
-      streetAddress: "Salah Al-Shemat St. 7",
+      addressLocality: "عمان",
+      streetAddress: "شارع صلاح الشمات 7",
     },
     geo: {
       "@type": "GeoCoordinates",
@@ -37,20 +36,19 @@ export function JewelryStoreSchema() {
   );
 }
 
-// Organization schema
 export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Abu Sara Jewelry",
+    name: "ابو سارة للمجوهرات",
     url: "https://abusarajewelry.com",
     logo: "https://abusarajewelry.com/assets/logo-as.jpg",
     foundingDate: "1921",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+962777616777",
-      contactType: "customer service",
-      availableLanguage: ["Arabic", "English"],
+      contactType: "خدمة العملاء",
+      availableLanguage: ["العربية", "الإنجليزية"],
     },
   };
 
@@ -62,42 +60,22 @@ export function OrganizationSchema() {
   );
 }
 
-// Custom design service schema
+// مخطط خدمة التصميم المخصص
 export function CustomDesignServiceSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Custom Jewelry Design",
-    description: "Bespoke gold jewelry design service. Submit your concept and our master craftsmen will bring it to life.",
-    url: "https://abusarajewelry.com/en/custom-design",
+    name: "تصميم المجوهرات المخصص",
+    description: "خدمة تصميم مجوهرات ذهبية حسب الطلب. شاركنا فكرتك وسيقوم حرفيونا المهرة بإحيائها.",
+    url: "https://abusarajewelry.com/ar/custom-design",
     provider: {
       "@type": "JewelryStore",
-      name: "Abu Sara Jewelry",
+      name: "ابو سارة للمجوهرات",
     },
     areaServed: {
       "@type": "Country",
-      name: "Jordan",
+      name: "الأردن",
     },
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-// FAQ schema — for use on Custom Design page
-export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }[] }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: { "@type": "Answer", text: faq.answer },
-    })),
   };
 
   return (

@@ -53,8 +53,12 @@
       "dragDropText": "اسحب وأفلت أو انقر للرفع",
       "maxSizeText": "الحد الأقصى: {size}ميجابايت",
       "sizeError": "حجم الصورة يجب أن يكون أقل من {size}ميجابايت",
+      "typeError": "نوع الملف غير مدعوم. الأنواع المدعومة: {types}",
       "previewAlt": "معاينة",
-      "removeButton": "إزالة الملف"
+      "removeButton": "إزالة الملف",
+      "removeImage": "إزالة الصورة",
+      "removeFile": "إزالة الملف",
+      "dropzoneLabel": "منطقة رفع الملفات"
     },
   "validation": {
       "fullNameRequired": "الاسم الكامل مطلوب",

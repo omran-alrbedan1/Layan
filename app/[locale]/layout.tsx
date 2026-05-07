@@ -7,6 +7,7 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { Toaster } from 'sonner';
+import { JewelryStoreSchema, OrganizationSchema } from "@/components/seo/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,11 +22,11 @@ const geistMono = Geist_Mono({
 export async function generateMetadata({
   params
 }: {
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl =  'https://abusarajewelry.com';
-  
+  const baseUrl = 'https://abusarajewelry.com';
+
   return {
     metadataBase: new URL(baseUrl),
     title: {
@@ -41,7 +42,7 @@ export async function generateMetadata({
       title: "Abu Sara Jewelry — Fine Gold & Custom Jewelry Since 1921",
       description: "Jordan's trusted family-owned jeweler since 1921. Handcrafted gold and custom designs in Amman.",
       images: [{
-        url: "/og-image.jpg", 
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Abu Sara Jewelry Collection",
@@ -66,9 +67,9 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;  
+  const { locale } = await params;
   const messages = await getMessages();
   const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
@@ -76,9 +77,12 @@ export default async function LocaleLayout({
     <html lang={locale} dir={direction} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <JewelryStoreSchema />
+          <OrganizationSchema />
+
           <Header />
           {children}
-          <Footer/>
+          <Footer />
           <WhatsAppFloat />
           <Toaster richColors />
         </NextIntlClientProvider>

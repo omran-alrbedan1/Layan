@@ -21,6 +21,7 @@ export default async function CustomDesignPage() {
 
   return (
     <>
+    <CustomDesignServiceSchema />
       <div className="bg-white font-sans text-gray-800 min-h-screen">
       <HeroSection />
       <ServicesSection />
