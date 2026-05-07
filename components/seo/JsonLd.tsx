@@ -9,19 +9,19 @@ export function JewelryStoreSchema() {
     image: "https://abusarajewelry.com/assets/logo-as.jpg",
     description: "Premium gold jewelry and custom design services in Amman, Jordan. Established 1921.",
     foundingDate: "1921",
-    telephone: "+962 6 533 3333",
+    telephone: "+962777616777",
     address: {
       "@type": "PostalAddress",
       addressCountry: "JO",
       addressLocality: "Amman",
-      streetAddress: "Goldsmith's Market, Downtown Amman",
+      streetAddress: "Salah Al-Shemat St. 7",
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: 31.9539,
       longitude: 35.9106,
     },
-    openingHours: "Mo-Sa 09:00-20:00",
+    openingHours: "Mo-Sa 10:00-20:30",
     priceRange: "$$$",
     sameAs: [
       "https://www.instagram.com/abusarajewelry",
@@ -48,7 +48,7 @@ export function OrganizationSchema() {
     foundingDate: "1921",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+962 6 533 3333",
+      telephone: "+962777616777",
       contactType: "customer service",
       availableLanguage: ["Arabic", "English"],
     },

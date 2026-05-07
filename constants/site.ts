@@ -7,24 +7,23 @@ export const SITE = {
 } as const;
 
 export const CONTACT = {
-  phoneDisplay: "0777 616 777",
+  phoneDisplay: "0777616777",
   phoneTel: "+962777616777",
   whatsappNumber: "962777616777",
   email: "info@abusarajewelry.com",
   address: {
     line1: "Sweifieh",
-    line1Ar: "الصويفية",
     line2: "Amman, Jordan",
     line2Ar: "عمّان، الأردن",
-    full: "Sweifieh, Amman, Jordan",
-    fullAr: "الصويفية، عمّان، الأردن",
+    full: "Salah Al-Shemat St. 7, Amman, Jordan",
+    fullAr: "ش. صلاح الشمات 7، عمّان، الأردن",
   },
   hours: [
     { day: "Saturday - Thursday", dayAr: "السبت - الخميس", time: "10:00 - 20:30" },
     { day: "Friday", dayAr: "الجمعة", time: "Closed" },
   ],
-  mapsDirections: "https://www.google.com/maps/dir/?api=1&destination=Sweifieh%2C+Amman%2C+Jordan",
-  mapsEmbed: "https://www.google.com/maps?q=Sweifieh%2C+Amman%2C+Jordan&output=embed",
+  mapsDirections: "https://www.google.com/maps/dir/?api=1&destination=Salah+Al-Shemat+St+7,+Amman",
+  mapsEmbed: "https://www.google.com/maps?q=Salah+Al-Shemat+St+7,+Amman&output=embed",
 } as const;
 
 export const SOCIAL = {

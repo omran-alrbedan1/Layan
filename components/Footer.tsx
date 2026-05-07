@@ -94,9 +94,14 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 justify-center sm:justify-start group">
                 <MapPin className="w-4 h-4 text-[#c9a98a] flex-shrink-0" />
-                <span className="text-sm text-gray-300 group-hover:text-white transition-colors duration-200">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Salah+Al-Shemat+St+7,+Amman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-300 group-hover:text-white transition-colors duration-200"
+                >
                   {t('contact.address')}
-                </span>
+                </a>
               </div>
               <div className="flex items-center gap-3 justify-center sm:justify-start group">
                 <Mail className="w-4 h-4 text-[#c9a98a] flex-shrink-0" />
@@ -115,12 +120,6 @@ export default function Footer() {
                 >
                   {t('contact.phone')}
                 </a>
-              </div>
-              <div className="flex items-center gap-3 justify-center sm:justify-start group">
-                <Clock className="w-4 h-4 text-[#c9a98a] flex-shrink-0" />
-                <span className="text-sm text-gray-300">
-                  {t('contact.hours')}
-                </span>
               </div>
             </div>
           </div>
@@ -146,7 +145,7 @@ export default function Footer() {
               {t('copyright')}
             </p>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-gray-500">{t('poweredBy')}</span>
+              <span className=" text-gray-300 ">{t('poweredBy')}</span>
               <a 
                 href={`https://futxtech.com/${locale}/home`} 
                 target="_blank" 
@@ -156,7 +155,7 @@ export default function Footer() {
                 <img 
                   src={BRAND_IMAGES.futurexLogo} 
                   alt="Futurex" 
-                  className="h-5 w-auto"
+                  className="h-8 w-auto"
                 />
               </a>
             </div>

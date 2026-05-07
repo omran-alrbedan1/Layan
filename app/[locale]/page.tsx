@@ -30,9 +30,9 @@ export default async function HomePage() {
         <Hero />
 
       {/* ── WELCOME ── */}
-      <section className="py-12 px-4 text-center max-w-2xl mx-auto">
+      <section className="py-8 px-4 text-center max-w-2xl mx-auto">
         <h2 className="text-2xl font-serif font-light text-gray-900 mb-3">{t('welcome.title')}</h2>
-        <p className="text-xs text-gray-500 leading-relaxed">{t('welcome.description')}</p>
+        <p className="text-sm text-gray-500 leading-relaxed">{t('welcome.description')}</p>
       </section>
 
       {/* ── COLLECTION SECTION ── */}

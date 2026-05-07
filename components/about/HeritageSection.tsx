@@ -107,7 +107,14 @@ export function HeritageSection() {
                   <div className="mb-0.5 text-[10px] uppercase tracking-[0.25em] text-gray-500 font-semibold">
                     {t("heritage.address")}
                   </div>
-                  <div className="text-gray-900">{t("heritage.addressText")}</div>
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=Salah+Al-Shemat+St+7,+Amman"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-900 hover:text-[#c9a98a] transition-colors"
+                  >
+                    {t("heritage.addressText")}
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -120,8 +127,8 @@ export function HeritageSection() {
                   <div className="mb-0.5 text-[10px] uppercase tracking-[0.25em] text-gray-500 font-semibold">
                     {t("heritage.phone")}
                   </div>
-                  <a href="tel:+96265333333" className="text-gray-900 hover:text-[#c9a98a] transition-colors">
-                    +962 6 533 3333
+                  <a href="tel:+962777616777" className="text-gray-900 hover:text-[#c9a98a] transition-colors">
+                    0777616777
                   </a>
                 </div>
               </div>

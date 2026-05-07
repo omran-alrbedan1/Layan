@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "Custom Jewelry Design | Bespoke Gold Jewelry Abu Sara",
-    "description": "Design your dream jewelry with Abu Sara's bespoke service. From concept to creation, we craft unique gold pieces tailored to your vision.",
+    "title": "Custom Jewelry Design in Amman | Abu Sara Jewelry",
+    "description": "Design your own ring or gold and diamond piece at Abu Sara Jewelry in Amman. Consultation, material selection, precise execution, and delivery of a unique piece that suits you.",
     "keywords": ["custom jewelry design", "bespoke jewelry Jordan", "personalized gold jewelry", "custom engagement rings", "jewelry design service Amman"]
   },
   "eyebrow": "Custom Design",
   "subtitle": "Turn your vision into reality with our bespoke jewelry design service. From concept to creation, we'll craft a piece that's uniquely yours.",
   "secondary": "Chat on WhatsApp",
   "hero": {
-      "title": "Create Your Dream Piece",
+      "title": "Custom Jewelry Design in Amman",
       "primary": "Start Your Design"
     },
   "steps": {
@@ -92,9 +92,53 @@
         "a": "Yes, all custom pieces come with detailed certificates of authenticity and valuation."
       }
     },
-  "option": {
-      "select": "Select an option"
+  "services": {
+    "title": "Custom Design Services",
+    "subtitle": "We offer a comprehensive range of custom jewelry design services to meet all your needs",
+    "engagementRings": {
+      "title": "Engagement Ring Design in Amman",
+      "description": "We design unique engagement rings that express your love story, with the ability to choose the perfect gemstone and ideal gold karat."
     },
+    "weddingRings": {
+      "title": "Wedding Ring Design",
+      "description": "We design classic or modern wedding rings with custom engravings, names, or dates to create a lasting memory for your special day."
+    },
+    "customNecklaces": {
+      "title": "Custom Gold Necklace Design",
+      "description": "We design unique necklaces with custom sizes and shapes, with the option to add letters, symbols, or gemstones according to your preferences."
+    },
+    "redesignJewelry": {
+      "title": "Old Jewelry Redesign",
+      "description": "We transform your old jewelry into modern and beautiful pieces, with reworking, adding diamonds, or completely changing the design."
+    },
+    "goldSelection": {
+      "title": "Gold Karat and Color Selection",
+      "description": "We offer diverse options for gold karat (18, 21, 24 karat) and colors (yellow, white, rose) to suit your taste and budget."
+    },
+    "whatsappProcess": {
+      "sectionTitle": "How to Start Your Order?",
+      "sectionSubtitle": "We believe the perfect piece of jewelry starts with an idea. Follow these simple steps to reach us on WhatsApp",
+      "step1": {
+        "title": "Share Your Idea",
+        "description": "Send us photos, sketches, or a simple idea of the design you want"
+      },
+      "step2": {
+        "title": "Free Consultation",
+        "description": "We'll review your request and provide immediate consultation with initial price & time estimate"
+      },
+      "step3": {
+        "title": "Design Approval & Start",
+        "description": "After you approve the design and price, we begin crafting your piece with precision"
+      },
+      "step4": {
+        "title": "Crafting & Delivery",
+        "description": "Expert artisans craft your piece and deliver it to you in Jordan or anywhere you choose"
+      },
+      "buttonText": "Start Your Order on WhatsApp Now",
+      "stats": "Over 500 clients trusted us",
+      "deliveryTime": "We deliver within 10-14 business days"
+    }
+  },
   "jewelry": {
       "ring": "Ring",
       "necklace": "Necklace",

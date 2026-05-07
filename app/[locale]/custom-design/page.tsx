@@ -5,7 +5,9 @@ import {
   StepsSection, 
   TrustSection, 
   CustomDesignForm, 
-  FaqSection, 
+  FaqSection,
+  ServicesSection,
+  WhatsAppProcessSection 
 } from '@/components/custom-design';
 import { getCustomDesignMetadata } from '../metadata/custom-design';
 import { CustomDesignServiceSchema, FAQSchema } from '@/components/seo/JsonLd';
@@ -18,17 +20,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function CustomDesignPage() {
   const t = await getTranslations('customDesign');
 
-  const faqs = [
-    { question: "How long does a custom design take?", answer: "Typically 2–4 weeks depending on complexity." },
-    { question: "What gold karats do you offer?", answer: "We work with 18K and 21K gold in yellow, white, and rose." },
-  ];
-
   return (
     <>
-      <CustomDesignServiceSchema />
-      <FAQSchema faqs={faqs} />
       <div className="bg-white font-sans text-gray-800 min-h-screen">
       <HeroSection />
+      <ServicesSection />
       <StepsSection />
       
       {/* ── Design Request Form Section ── */}

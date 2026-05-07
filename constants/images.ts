@@ -11,6 +11,16 @@ export const    HERO_IMAGES = {
   shopInterior: '/assets/shop-interior.jpg',
 } as const;
 
+// ─── Service Images ──────────────────────────────────────
+export const SERVICE_IMAGES = {
+  engagementRings: '/assets/ring.svg',
+  weddingRings: '/assets/wedding.svg',
+  customNecklaces: '/assets/necklace.svg',
+  redesignJewelry: '/assets/Jewelry.svg',
+  goldSelection: '/assets/gold.svg',
+} as const;
+ 
+
 // ─── Heritage Images ───────────────────────────────────────────
 export const HERITAGE_IMAGES = {
   shopfront: '/assets/heritage-shopfront.jpeg',
@@ -93,82 +103,6 @@ export const CATEGORY_IMAGES = {
   pendants: PENDANT_IMAGES.gold,
 } as const;
 
-// ─── Featured Products Array (for carousels) ─────────────────────
-export const FEATURED_PRODUCTS = [
-  {
-    id: 1,
-    name: 'Exquisite Diamond Ring',
-    image: RING_IMAGES.exquisite,
-    price: '$2,450.00',
-    originalPrice: '$3,200.00',
-    badge: 'Sale',
-    rating: 5,
-  },
-  {
-    id: 2,
-    name: 'Diamond Tennis Bracelet',
-    image: BRACELET_IMAGES.tennis,
-    price: '$1,850.00',
-    rating: 4,
-  },
-  {
-    id: 3,
-    name: 'Gold Chain Necklace',
-    image: NECKLACE_IMAGES.goldChain,
-    price: '$980.00',
-    originalPrice: '$1,450.00',
-    badge: '30% Off',
-    rating: 4,
-  },
-  {
-    id: 4,
-    name: 'Flame Diamond Earrings',
-    image: EARRINGS_IMAGES.flame,
-    price: '$1,250.00',
-    rating: 5,
-  },
-] as const;
-
-// ─── Special Products Array (for special offers) ─────────────────
-export const SPECIAL_PRODUCTS = [
-  {
-    id: 5,
-    name: 'Curved Gold Ring',
-    image: RING_IMAGES.curved,
-    price: '$1,650.00',
-    originalPrice: '$2,100.00',
-    badge: '21% Off',
-    rating: 4,
-  },
-  {
-    id: 6,
-    name: 'Branch Pavé Bracelet',
-    image: BRACELET_IMAGES.branchPave,
-    price: '$2,200.00',
-    originalPrice: '$3,000.00',
-    badge: '27% Off',
-    rating: 5,
-  },
-  {
-    id: 7,
-    name: 'V-Line Diamond Necklace',
-    image: NECKLACE_IMAGES.vlineDiamond,
-    price: '$3,500.00',
-    originalPrice: '$4,200.00',
-    badge: '17% Off',
-    rating: 5,
-  },
-  {
-    id: 8,
-    name: 'Chain Tassel Earrings',
-    image: EARRINGS_IMAGES.chainTasselProduct,
-    price: '$890.00',
-    originalPrice: '$1,350.00',
-    badge: '34% Off',
-    rating: 4,
-  },
-] as const;
-
 // ─── Blog Images ─────────────────────────────────────────────────
 export const BLOG_IMAGES = [
   '/assets/gallery/ring-gold-stack.jpg',
@@ -229,12 +163,4 @@ export const IMAGES = {
   
   // Pendant images
   pendantGold: PENDANT_IMAGES.gold,
-} as const;
-
-// ─── Default Fallback Images ────────────────────────────────────
-export const DEFAULT_IMAGES = {
-  product: '/assets/hero-jewelry.jpg',
-  category: '/assets/hero-jewelry.jpg',
-  blog: '/assets/gallery/ring-gold-stack.jpg',
-  hero: '/assets/hero-jewelry.jpg',
 } as const;

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Abu Sara Jewelry — Fine Gold & Custom Jewelry Since 1921 | Amman",
-    "description": "Abu Sara Jewelry has crafted premium gold jewelry in Amman since 1921. Browse our collections or request a fully custom design today.",
-    "keywords": ["gold jewelry Amman", "custom jewelry Jordan", "engagement rings Jordan", "jewelry since 1921", "fine jewelry Amman"]
+    "title": "Abu Sara Jewelry — Gold & Diamonds Since 1921 | Amman",
+    "description": "Discover Abu Sara Jewelry in Amman: gold, diamonds, custom designs since 1921. Browse our collections or contact us for bespoke jewelry.",
+    "keywords": ["gold jewelry Amman", "custom jewelry Jordan", "diamond rings Amman", "luxury jewelry Amman", "bespoke jewelry Jordan", "Abu Sara Jewelry", "jewelry since 1921"]
   },
   "hero": {
     "eyebrow": "Abu Sara Jewelry",
@@ -10,14 +10,16 @@
     "title1": "Timeless Elegance",
     "title2": "Since 1921",
     "subtitle": "Jordan's trusted family-owned jeweler crafting heirloom pieces in the heart of Amman since 1921.",
-  
+    "subtitle1": "Exquisite designs and custom jewelry with generational expertise.",
+    "subtitle2": "Family heritage in fine jewelry craftsmanship since 1921.",
     "cta": "Explore Collection",
     "explore": "Explore Collection",
     "contact": "Contact Us"
   },
   "welcome": {
-    "title": "Welcome to Abu Sara Jewelry",
-    "description": "Discover our exquisite collection of handcrafted jewelry pieces that combine tradition with modern elegance."
+    "title": "Abu Sara Jewelry",
+    "description": "Abu Sara Jewelry is a heritage jewelry store in Amman, offering exclusive designs of gold, diamonds, rings, pendants and bracelets, with custom jewelry design service and family expertise since 1921.",
+    "subtitle": "Abu Sara Jewelry in Amman: gold, diamonds, rings, pendants, bracelets and custom jewelry design with family expertise since 1921."
   },
   "specialOffers": {
     "tag": "Special Offer",
@@ -58,17 +60,17 @@
   "testimonials": {
     "title": "What Our Clients Say",
     "description": "We take pride in creating exceptional jewelry that brings joy to our customers. Here's what some of our satisfied clients have to say about their experience with our collections and craftsmanship.",
-    "sarah": {
-      "name": "Sarah Johnson",
-      "text": "Absolutely stunning jewelry! The craftsmanship is exceptional and customer service was outstanding. I will definitely be purchasing again."
+    "saif": {
+      "name": "Saif Kilani",
+      "text": "Praise be to God for the service, honesty, and truth in dealing. I have been dealing with them for over 23 years. May God bless them in their business."
     },
-    "elizabeth": {
-      "name": "Elizabeth Jeff",
-      "text": "The perfect anniversary gift for my wife. She was speechless when she saw the necklace. Quality exceeded my expectations."
+    "tala": {
+      "name": "Tala Adas",
+      "text": "Honestly, one of the most comfortable and best gold stores I've dealt with. Dealing with them is very comfortable and dignified, they always listen to the details I request and make the piece exactly as I want. They are also very committed to delivery times and never delay. Besides that, their style is service-oriented and kind, and I truly feel confident when dealing with them. I highly recommend them 👍😍"
     },
-    "emma": {
-      "name": "Emma Williams",
-      "text": "As someone in fashion industry, I appreciate fine jewelry. This collection is truly exceptional and worth every penny."
+    "anas": {
+      "name": "Anas Yacoub",
+      "text": "One of the best jewelry galleries in Amman, dignified and kind dealing, with a distinguished collection of gold and jewelry. I recommend everyone to try them."
     }
   },
   "blog": {
@@ -217,9 +219,9 @@
     "description": "Crafting exquisite custom jewelry since 1948. Your vision, our expertise.",
     "contact": {
       "title": "Contact Us",
-      "address": "Sweifieh, Amman, Jordan",
+      "address": "Salah Al-Shemat St. 7, Amman",
       "email": "info@abusarajewelry.com",
-      "phone": "+962 777 616 777"
+      "phone": "0777616777"
     },
     "navigation": {
       "title": "Quick Links",

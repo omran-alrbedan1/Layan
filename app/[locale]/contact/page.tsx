@@ -7,18 +7,18 @@ import { getContactMetadata } from '../metadata/contact';
 
 // ─── Contact Information Constants ───────────────────────────────────────
 const CONTACT = {
-  phoneTel: "+96265555555",
-  phoneDisplay: "+962 6 555 5555",
+  phoneTel: "+962777616777",
+  phoneDisplay: "0777616777",
   mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.1234567890!2d35.937034!3d31.953594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzMzMzMzMzMzMzMzMzMw",
   hours: [
-    { day: "Saturday - Thursday", dayAr: "السبت - الخميس", time: "9:00 AM - 8:00 PM" },
+    { day: "Saturday - Thursday", dayAr: "السبت - الخميس", time: "10:00 AM - 8:30 PM" },
     { day: "Friday", dayAr: "الجمعة", time: "Closed" },
   ],
   address: {
-    line1: "Sweifieh Shopping Center",
-    line1Ar: "مركز السويفية التجاري",
+    line1: "Salah Al-Shemat St. 7",
+    line1Ar: "ش. صلاح الشمات 7",
     line2: "Amman, Jordan",
-    line2Ar: "عمان، الأردن"
+    line2Ar: "عمّان، الأردن"
   }
 };
 
@@ -99,7 +99,7 @@ export default async function ContactPage() {
 
               <div className="pt-4">
                 <a
-                  href="https://wa.me/96265555555?text=Hello Abu Sara Jewelry, I'd like to inquire about..."
+                  href="https://wa.me/962777616777?text=Hello Abu Sara Jewelry, I'd like to inquire about..."
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-[#c9a98a] hover:bg-[#b8956f] text-white text-sm font-semibold uppercase tracking-widest px-8 py-3 transition-colors duration-200"
