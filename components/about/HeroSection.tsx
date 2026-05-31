@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { about, HERO_IMAGES } from '@/constants/images';
+import { about } from '@/constants/images';
 
 export function HeroSection() {
   const t = useTranslations('about');
