@@ -3,9 +3,9 @@ export function JewelryStoreSchema() {
     "@context": "https://schema.org",
     "@type": "JewelryStore",
     name: "مجوهرات ليان",
-    url: "https://rovana-gilt.vercel.app",
-    logo: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
-    image: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
+    url: "https://layan-puce.vercel.app",
+    logo: "https://layan-puce.vercel.app/assets/logo-as.jpg",
+    image: "https://layan-puce.vercel.app/assets/logo-as.jpg",
     description: "متجرك الموثوق لارقى مجوهرات الذهب والألماس في حلب، سوريا",
     telephone: "+963948973646",
     address: {
@@ -35,8 +35,8 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "مجوهرات ليان",
-    url: "https://rovana-gilt.vercel.app",
-    logo: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
+    url: "https://layan-puce.vercel.app",
+    logo: "https://layan-puce.vercel.app/assets/logo-as.jpg",
     description: "متجرك الموثوق لارقى مجوهرات الذهب والألماس في حلب، سوريا",
     contactPoint: {
       "@type": "ContactPoint",
@@ -67,7 +67,7 @@ export function CustomDesignServiceSchema() {
     "@type": "Service",
     name: "تصميم المجوهرات المخصص",
     description: "خدمة تصميم مجوهرات ذهبية حسب الطلب. شاركنا فكرتك وسيقوم حرفيونا المهرة بإحيائها.",
-    url: "https://rovana-gilt.vercel.app/ar/custom-design",
+    url: "https://layan-puce.vercel.app/ar/custom-design",
     provider: {
       "@type": "JewelryStore",
       name: "مجوهرات ليان",

@@ -25,7 +25,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://rovana-gilt.vercel.app';
+  const baseUrl = 'https://layan-puce.vercel.app';
 
   return {
     metadataBase: new URL(baseUrl),
