@@ -16,7 +16,7 @@ export function StorySection() {
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={about.ourStory}
-                alt="Rovana Jewelry boutique"
+                alt="Layan Jewellery boutique"
                 width={600}
                 height={500}
                 className="w-full h-100 object-cover rounded-lg"

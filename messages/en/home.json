@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "title": "Rovana Jewelry — Gold & Diamonds",
-    "description": "Discover Rovana Jewelry in Damascus: gold, diamonds, and custom designs. Browse our collections or contact us for bespoke jewelry.",
-    "keywords": ["gold jewelry Damascus", "custom jewelry Syria", "diamond rings Damascus", "luxury jewelry Damascus", "bespoke jewelry Syria", "Rovana Jewelry"]
+    "title": "Layan Jewellery — Gold & Diamonds",
+    "description": "Discover Layan Jewellery in Aleppo: gold, diamonds, and custom designs. Browse our collections or contact us for bespoke jewelry.",
+    "keywords": ["gold jewelry Aleppo", "custom jewelry Syria", "diamond rings Aleppo", "luxury jewelry Aleppo", "bespoke jewelry Syria", "Layan Jewellery"]
   },
   "hero": {
-    "eyebrow": "Rovana Jewelry",
+    "eyebrow": "Layan Jewellery",
     "title": "Timeless Elegance",
     "title1": "Timeless Elegance",
-    "subtitle": "Syria's trusted jewelry destination crafting heirloom pieces in the heart of Damascus.",
-    "subtitle1": "Exquisite designs and custom jewelry with generational expertise.",
-    "subtitle2": "Family heritage in fine jewelry craftsmanship",
+    "subtitle": "Syria's trusted jewelry destination crafting heirloom pieces in Aleppo.",
+    "subtitle1": "Exquisite designs and custom jewelry with expert craftsmanship.",
+    "subtitle2": "Your trusted destination for fine jewelry craftsmanship",
     "cta": "Explore Collection",
     "explore": "Explore Collection",
     "contact": "Contact Us"
   },
   "welcome": {
-    "title": "Rovana Jewelry",
-    "description": "Rovana Jewelry offers exclusive designs of gold, diamonds, rings, pendants and bracelets, with custom jewelry design service based in Damascus, Syria.",
-    "subtitle": "Rovana Jewelry: gold, diamonds, rings, pendants, bracelets and custom jewelry design in Damascus."
+    "title": "Layan Jewellery",
+    "description": "Layan Jewellery offers exclusive designs of gold, diamonds, rings, pendants and bracelets, with custom jewelry design service based in Aleppo, Syria.",
+    "subtitle": "Layan Jewellery: gold, diamonds, rings, pendants, bracelets and custom jewelry design in Aleppo."
   },
   "specialOffers": {
     "tag": "Special Offer",
@@ -69,7 +69,7 @@
     },
     "anas": {
       "name": "Anas Yacoub",
-      "text": "One of the best jewelry galleries in Damascus, dignified and kind dealing, with a distinguished collection of gold and jewelry. I recommend everyone to try them."
+      "text": "One of the best jewelry galleries in Aleppo, dignified and kind dealing, with a distinguished collection of gold and jewelry. I recommend everyone to try them."
     }
   },
   "blog": {
@@ -135,42 +135,42 @@
   },
   "heritage": {
     "eyebrow": "Our Heritage",
-    "title1": "Three Generations",
-    "title2": "of Excellence",
-    "subtitle": "Our commitment to craftsmanship and trust has remained unwavering through the years.",
+    "title1": "Crafting",
+    "title2": "Excellence",
+    "subtitle": "Our commitment to craftsmanship and trust has remained unwavering.",
     "since": "Since",
-    "founderCaption": "Our founder outside the original shop",
-    "chapter1": "Chapter One",
-    "chapter1Title1": "The Beginning",
-    "chapter1Title2": "in Jaffa",
-    "chapter1Text1": "Our story began with a commitment to exceptional craftsmanship and honest business practices.",
-    "chapter1Text2": "The foundation was built on trust, quality, and a deep respect for the art of jewelry making - values that continue to guide us today.",
+    "founderCaption": "Our craft, our passion",
+    "chapter1": "Our Promise",
+    "chapter1Title1": "Quality &",
+    "chapter1Title2": "Trust",
+    "chapter1Text1": "We are committed to exceptional craftsmanship and honest business practices.",
+    "chapter1Text2": "Every piece is built on trust, quality, and a deep respect for the art of jewelry making.",
     "visitUs": "Visit Our Boutique",
-    "chapter2": "Chapter Two",
-    "chapter2Title1": "A New Era",
-    "chapter2Title2": "in Damascus",
-    "chapter2Text": "In the 1970s, we expanded our operations to Damascus, Syria, bringing our expertise and reputation for quality to the growing capital city.",
-    "marketLabel": "Goldsmith's Market",
-    "marketCaption": "The historic Goldsmith's Market in old Damascus",
+    "chapter2": "Our Boutique",
+    "chapter2Title1": "Visit Us",
+    "chapter2Title2": "in Aleppo",
+    "chapter2Text": "Located in Aleppo, we bring our expertise and reputation for quality to every piece we create.",
+    "marketLabel": "Our Boutique",
+    "marketCaption": "Welcome to Layan Jewellery in Aleppo",
     "address": "Address",
     "phone": "Phone",
     "getDirections": "Get Directions",
     "timeline": {
       "1921": {
         "title": "The Beginning",
-        "text": "Founded in Jaffa, establishing our reputation for exceptional craftsmanship."
+        "text": "Founded with a commitment to exceptional craftsmanship."
       },
       "1970s": {
-        "title": "New Era",
-        "text": "Expanded to Damascus, bringing our expertise to Syria's growing capital."
+        "title": "Growth",
+        "text": "Expanded our operations, bringing expertise to more clients."
       },
       "2000s": {
         "title": "Modern Legacy",
-        "text": "Established our flagship boutique in Sweifieh, becoming a landmark destination."
+        "text": "Established our boutique, becoming a landmark destination."
       },
       "today": {
         "title": "Continuing Tradition",
-        "text": "Serving a new generation while honoring the timeless values of our founders."
+        "text": "Serving a new generation while honoring timeless values."
       }
     }
   },
@@ -178,11 +178,11 @@
     "eyebrow": "Why Choose Us",
     "title1": "Trust Woven",
     "title2": "Into Gold",
-    "subtitle": "Discover what makes Rovana Jewelry the preferred choice for discerning clients.",
+    "subtitle": "Discover what makes Layan Jewellery the preferred choice for discerning clients.",
     "reasons": {
       "heritage": {
-        "title": "Century of Heritage",
-        "description": "Over 100 years of trusted expertise in fine jewelry craftsmanship."
+        "title": "Trusted Expertise",
+        "description": "Years of trusted expertise in fine jewelry craftsmanship."
       },
       "craftsmanship": {
         "title": "Master Craftsmen",
@@ -201,26 +201,26 @@
   "cta": {
     "title1": "Ready to Find",
     "title2": "Your Perfect Piece?",
-    "body": "Visit our boutique in Damascus or contact us to begin your journey with Rovana Jewelry.",
+    "body": "Visit our boutique in Aleppo or contact us to begin your journey with Layan Jewellery.",
     "button": "Get in Touch"
   },
   "category": {
     "all": "All",
     "rings": "Rings",
-    "necklaces": "Necklaces",
-    "bracelets": "Bracelets",
-    "pendants": "Pendants",
-    "earrings": "Earrings"
+    "earrings": "Earrings",
+    "handCuff": "Hand Cuff",
+    "sets": "Sets",
+    "bracelets": "Bracelets"
   },
   "viewDetail": "View Detail",
   "empty": "No items found",
   "footer": {
-    "description": "Crafting exquisite custom jewelry since 1948. Your vision, our expertise.",
+    "description": "Crafting exquisite custom jewelry. Your vision, our expertise.",
     "contact": {
       "title": "Contact Us",
-      "address": "Al-Salihiya, Next to Abou Abdo Juice, Damascus",
-      "email": "rovanajewellery@gmail.com",
-      "phone": "0981 117 927"
+      "address": "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال، حلب",
+      "email": "mixnajo799@gmail.com",
+      "phone": "098 948 973 646"
     },
     "navigation": {
       "title": "Quick Links",
@@ -247,6 +247,6 @@
     "app": {
       "title": "Our App"
     },
-    "copyright": "© 2026 Rovana Jewelry. All Rights Reserved."
+    "copyright": "© 2026 Layan Jewellery. All Rights Reserved."
   }
 }

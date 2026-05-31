@@ -4,7 +4,7 @@ import arMessages from "@/messages/ar/home.json";
 
 export async function getHomeMetadata(locale: string): Promise<Metadata> {
   const t = locale === "ar" ? arMessages : enMessages;
-  const path = `https://rovana-gilt.vercel.app/${locale}/home`;
+  const path = `https://rovana-gilt.vercel.app/${locale}`;
 
   return {
     title: t.metadata.title,
@@ -13,8 +13,8 @@ export async function getHomeMetadata(locale: string): Promise<Metadata> {
     alternates: {
       canonical: path,
       languages: {
-        "en-US": "https://rovana-gilt.vercel.app/en/home",
-        "ar-JO": "https://rovana-gilt.vercel.app/ar/home",
+        "en-US": "https://rovana-gilt.vercel.app/en",
+        "ar-JO": "https://rovana-gilt.vercel.app/ar",
       },
     },
     openGraph: {

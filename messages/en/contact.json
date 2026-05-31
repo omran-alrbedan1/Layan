@@ -1,13 +1,35 @@
 {
   "metadata": {
-    "title": "Contact Rovana Jewelry | Visit Our Damascus Boutique",
-    "description": "Get in touch with Rovana Jewelry. Visit our Damascus boutique, call us, or send a message for custom jewelry designs and inquiries.",
-    "keywords": ["contact Rovana Jewelry", "Damascus jewelry store", "custom jewelry contact", "jewelry boutique Damascus", "Rovana phone address"]
+    "title": "Contact Layan Jewellery | Visit Our Aleppo Boutique",
+    "description": "Get in touch with Layan Jewellery. Visit our Aleppo boutique, call us, or send a message for custom jewelry designs and inquiries.",
+    "keywords": ["contact Layan Jewellery", "Aleppo jewelry store", "custom jewelry contact", "jewelry boutique Aleppo", "Layan phone address"]
   },
-  "eyebrow": "Get in Touch",
+  "eyebrow": "Contact Us",
   "title1": "Get in",
   "title2": "Touch",
-  "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "subtitle": "We'd love to hear from you. Reach out to us for inquiries, custom designs, or just to say hello.",
+  "form": {
+    "eyebrow": "Send a Message",
+    "title": "Let's Start a Conversation",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about what you're looking for...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "reset": "Reset",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "networkError": "Network error. Please check your connection and try again.",
+    "requiredFieldsNote": "Required fields",
+    "validation": {
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "messageMin": "Message must be at least 10 characters"
+    }
+  },
   "info": {
     "items": {
       "address": {
@@ -16,35 +38,12 @@
       "phone": {
         "title": "Call Us"
       },
-      "whatsapp": {
-        "title": "Message on WhatsApp"
-      },
       "hours": {
-        "title": "Business Hours"
+        "title": "Working Hours"
+      },
+      "whatsapp": {
+        "title": "WhatsApp"
       }
-    }
-  },
-  "form": {
-    "eyebrow": "Send Us a Message",
-    "title": "Get in Touch",
-    "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
-    "name": "Full Name",
-    "namePlaceholder": "Enter your full name",
-    "phone": "Phone Number",
-    "phonePlaceholder": "Enter your phone number",
-    "message": "Message",
-    "messagePlaceholder": "Tell us about your inquiry...",
-    "submit": "Send Message",
-    "sending": "Sending...",
-    "reset": "Reset",
-    "success": "Thank you! Your message has been sent successfully. We'll contact you soon.",
-    "error": "Something went wrong. Please try again.",
-    "networkError": "Network error. Please check your connection and try again.",
-    "requiredFieldsNote": "Required fields",
-    "validation": {
-      "nameRequired": "Full name is required",
-      "phoneRequired": "Phone number is required",
-      "messageMin": "Message must be at least 10 characters long"
     }
   }
 }

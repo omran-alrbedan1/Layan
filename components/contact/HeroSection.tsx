@@ -12,7 +12,7 @@ export default function HeroSection() {
       {/* Background Image with Overlay */}
       <Image
         src={HERO_IMAGES.jewelry}
-        alt="Rovana Jewelry"
+        alt="Layan Jewellery"
         fill
         className="object-cover"
         priority

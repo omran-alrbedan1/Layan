@@ -30,22 +30,22 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      template: "%s | Rovana Jewelry",
-      default: "Rovana Jewelry — Fine Gold & Custom Jewelry",
+      template: "%s | Layan Jewellery",
+      default: "Layan Jewellery — Fine Gold & Custom Jewelry",
     },
-    description: "Your favorite store for the finest gold and diamond jewelry in Damascus, Syria. Handcrafted gold, custom designs, and expert jewelry services .",
+    description: "Your trusted destination for the finest gold and diamond jewelry in Aleppo, Syria. Handcrafted gold, custom designs, and expert jewelry services.",
     openGraph: {
       type: "website",
       locale: locale === 'ar' ? 'ar_SY' : 'en_US',
       url: `${baseUrl}/${locale}`,
-      siteName: "Rovana Jewelry",
-      title: "Rovana Jewelry — Fine Gold & Custom Jewelry",
-      description: "Your favorite store for the finest gold and diamond jewelry in Damascus, Syria.",
+      siteName: "Layan Jewellery",
+      title: "Layan Jewellery — Fine Gold & Custom Jewelry",
+      description: "Your trusted destination for the finest gold and diamond jewelry in Aleppo, Syria.",
       images: [{
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Rovana Jewelry Collection",
+        alt: "Layan Jewellery Collection",
       }],
     },
     robots: {

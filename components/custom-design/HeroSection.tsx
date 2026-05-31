@@ -43,7 +43,7 @@ export default function HeroSection() {
             {t("hero.primary")}
           </a>
           <a
-            href="https://wa.me/963981117927?text=Hello Rovana Jewelry, I would like to book a custom design."
+            href="https://wa.me/963948973646?text=Hello Layan Jewellery, I would like to book a custom design."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 border border-white/30 text-white text-sm font-semibold uppercase tracking-widest px-8 py-3 transition-colors duration-200 hover:bg-white/10"

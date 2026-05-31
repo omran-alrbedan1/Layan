@@ -28,8 +28,8 @@ export default function Footer() {
           <div className="text-center sm:text-start"> 
             <div className="mb-5 flex justify-center sm:justify-start">
               <Image 
-                src={BRAND_IMAGES.logo2} 
-                alt="Rovana Jewelry" 
+                src={BRAND_IMAGES.logo} 
+                alt="Layan Jewellery" 
                 width={120}
                 height={40}
                 className="h-auto w-auto"
@@ -43,7 +43,7 @@ export default function Footer() {
             {/* Social Media Links */}
             <div className="flex gap-3 justify-center sm:justify-start">
               <a 
-                href="https://www.facebook.com/share/1BLpnTQo49/"
+                href="https://www.facebook.com/share/1aQJ36GBT4/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105"
@@ -52,7 +52,7 @@ export default function Footer() {
                 <FaFacebookF className="w-4 h-4 text-white" />
               </a>
               <a 
-                  href="https://www.instagram.com/rovana_jewellery2?igsh=MXFpcjB3NDI0bTluNw=="
+                    href="https://www.instagram.com/layan_jewellery3?igsh=eTE5aWlzeWw3aDFr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105"
@@ -61,7 +61,7 @@ export default function Footer() {
                 <FaInstagram className="w-4 h-4 text-white" />
               </a>
               <a 
-                href="mailto:rovanajewellery@gmail.com"
+                  href="mailto:mixnajo799@gmail.com"
                 className="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105"
                 aria-label="Email"
               >
@@ -101,7 +101,7 @@ export default function Footer() {
               <div className="flex items-center gap-3 justify-center sm:justify-start group">
                 <MapPin className="w-4 h-4 text-[#E6C687] flex-shrink-0" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Al-Salihiya+Damascus+Syria"
+                  href="https://www.google.com/maps/search/?api=1&query=Aleppo+Syria"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-gray-300 group-hover:text-white transition-colors duration-200"
@@ -112,7 +112,7 @@ export default function Footer() {
               <div className="flex items-center gap-3 justify-center sm:justify-start group">
                 <Mail className="w-4 h-4 text-[#E6C687] flex-shrink-0" />
                 <a 
-                  href="mailto:rovanajewellery@gmail.com"
+                href="mailto:mixnajo799@gmail.com"
                   className="text-sm text-gray-300 hover:text-white transition-colors duration-200"
                 >
                   {t('contact.email')}
@@ -121,7 +121,7 @@ export default function Footer() {
               <div className="flex items-center gap-3 justify-center sm:justify-start group">
                 <Phone className="w-4 h-4 text-[#E6C687] flex-shrink-0" />
                 <a 
-                  href="tel:+963981117927"
+                  href="tel:+963948973646"
                   className="text-sm text-gray-300 hover:text-white transition-colors duration-200"
                   dir="ltr"
                 >

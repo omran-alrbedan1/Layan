@@ -2,23 +2,23 @@ export function JewelryStoreSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "JewelryStore",
-    name: "مجوهرات روفانا",
+    name: "مجوهرات ليان",
     url: "https://rovana-gilt.vercel.app",
     logo: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
     image: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
-    description: "متجرك المفضل لارقى مجوهرات الذهب والألماس 💫",
-    telephone: "+963981117927",
+    description: "متجرك الموثوق لارقى مجوهرات الذهب والألماس في حلب، سوريا",
+    telephone: "+963948973646",
     address: {
       "@type": "PostalAddress",
       addressCountry: "SY",
-      addressLocality: "دمشق",
-      streetAddress: "الصالحية، بجانب عصير أبو عبدو",
+      addressLocality: "حلب",
+      streetAddress: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال",
     },
     openingHours: "Mo-Th 10:00-20:30",
     priceRange: "$$$",
-    hasMap: "https://maps.app.goo.gl/2U98HSagq1mMx7L28",
+    hasMap: "https://maps.app.goo.gl",
     sameAs: [
-      "https://www.instagram.com/rovanajewellery",
+      "https://www.instagram.com/layan_jewellery3?igsh=eTE5aWlzeWw3aDFr",
     ],
   };
 
@@ -34,21 +34,21 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "مجوهرات روفانا",
+    name: "مجوهرات ليان",
     url: "https://rovana-gilt.vercel.app",
     logo: "https://rovana-gilt.vercel.app/assets/logo-as.jpg",
-    description: "متجرك المفضل لارقى مجوهرات الذهب والألماس",
+    description: "متجرك الموثوق لارقى مجوهرات الذهب والألماس في حلب، سوريا",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+963981117927",
+      telephone: "+963948973646",
       contactType: "خدمة العملاء",
       availableLanguage: ["العربية", "الإنجليزية"],
     },
     address: {
       "@type": "PostalAddress",
       addressCountry: "SY",
-      addressLocality: "دمشق",
-      streetAddress: "الصالحية، بجانب عصير أبو عبدو",
+      addressLocality: "حلب",
+      streetAddress: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال",
     },
   };
 
@@ -70,7 +70,7 @@ export function CustomDesignServiceSchema() {
     url: "https://rovana-gilt.vercel.app/ar/custom-design",
     provider: {
       "@type": "JewelryStore",
-      name: "مجوهرات روفانا",
+      name: "مجوهرات ليان",
     },
     areaServed: {
       "@type": "Country",

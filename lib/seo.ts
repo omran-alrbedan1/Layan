@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const BASE_URL = "https://rovana-gilt.vercel.app";
 
 export const defaultMetadata = {
-  siteName: "Rovana Jewelry",
+  siteName: "Layan Jewellery",
   baseUrl: BASE_URL,
   defaultLocale: "en",
 };

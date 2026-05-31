@@ -73,7 +73,7 @@ export default function Header() {
                 <div className="w-10 h-10 md:w-14 md:h-14 rounded-full overflow-hidden shadow-md group-hover:shadow-lg transition-shadow duration-300">
                   <img 
                     src={BRAND_IMAGES.logo} 
-                    alt="Rovana" 
+                    alt="Layan" 
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
@@ -84,7 +84,7 @@ export default function Header() {
                     className="text-base md:text-[22px] font-light tracking-[0.25em] md:tracking-[0.35em] text-gray-900 uppercase group-hover:text-primary transition-colors duration-300 whitespace-nowrap"
                     style={{ fontFamily: "'Cormorant Garamond', 'Garamond', 'Georgia', serif" }}
                   >
-                    Rovana
+                    Layan
                   </span>
                 </div>
               </div>

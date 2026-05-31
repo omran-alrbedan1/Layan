@@ -1,34 +1,34 @@
 export const SITE = {
-  name: "Rovana Jewelry",
-  shortName: "Rovana",
+  name: "Layan Jewellery",
+  shortName: "Layan",
   tagline: "Elegance in Every Detail",
   established: 1921,
-  description: "A legacy of craftsmanship and trust since 1948 - Jordan's family-owned house of fine diamond and gold jewelry.",
+  description: "Your trusted destination for fine gold and diamond jewelry in Aleppo, Syria.",
 } as const;
 
 export const CONTACT = {
-  phoneDisplay: "0981 117 927",
-  phoneTel: "+963981117927",
-  whatsappNumber: "963981117927",
-  email: "rovanajewellery@gmail.com",
+  phoneDisplay: "098 948 973 646",
+  phoneTel: "+963948973646",
+  whatsappNumber: "963948973646",
+  email: "mixnajo799@gmail.com",
   address: {
-    line1: "Al-Salihiya, Next to Abou Abdo Juice",
-    line2: "Damascus, Syria",
-    line2Ar: "دمشق، سوريا",
-    full: "Al-Salihiya, Next to Abou Abdo Juice, Damascus, Syria",
-    fullAr: "الصالحية، بجانب عصير أبو عبدو، دمشق، سوريا",
+    line1: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال",
+    line2: "Aleppo, Syria",
+    line2Ar: "حلب، سوريا",
+    full: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال، حلب، سوريا",
+    fullAr: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال، حلب، سوريا",
   },
   hours: [
     { day: "Saturday - Thursday", dayAr: "السبت - الخميس", time: "10:00 - 20:30" },
     { day: "Friday", dayAr: "الجمعة", time: "Closed" },
   ],
-  mapsDirections: "https://www.google.com/maps/dir/?api=1&destination=33.5204193,36.2920914",
-  mapsEmbed: "https://www.google.com/maps?q=33.5204193,36.2920914&output=embed",
+  mapsDirections: "https://www.google.com/maps/dir/?api=1&destination=Aleppo+Syria",
+  mapsEmbed: "https://www.google.com/maps?q=Aleppo+Syria&output=embed",
 } as const;
 
 export const SOCIAL = {
-  instagram: "#",
-  facebook: "#",
+  instagram: "https://www.instagram.com/layan_jewellery3?igsh=eTE5aWlzeWw3aDFr",
+  facebook: "https://www.facebook.com/share/1aQJ36GBT4/",
 } as const;
 
 export const NAV_LINKS = [

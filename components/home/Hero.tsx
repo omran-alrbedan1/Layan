@@ -9,7 +9,6 @@ export default function Hero() {
   const slides = [
       ads.hero1,
       ads.hero2,
-      ads.hero3,
   ];
 
   useEffect(() => {
@@ -23,6 +22,15 @@ export default function Hero() {
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
   };
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
   return (
     <section className="relative w-full h-[60vh] min-h-100 max-h-150 overflow-hidden">
       {/* Carousel Slides */}
@@ -45,6 +53,28 @@ export default function Hero() {
           </div>
         ))}
       </div>
+
+      {/* Left Navigation Arrow */}
+      <button
+        onClick={prevSlide}
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 sm:p-3 transition-all duration-300 backdrop-blur-sm"
+        aria-label="Previous slide"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </button>
+
+      {/* Right Navigation Arrow */}
+      <button
+        onClick={nextSlide}
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 sm:p-3 transition-all duration-300 backdrop-blur-sm"
+        aria-label="Next slide"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
+      </button>
 
       {/* Dots Indicator */}
       <div className="absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1 sm:gap-1.5 z-20">

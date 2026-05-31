@@ -3,7 +3,6 @@ import {
   HeroSection, 
   StorySection, 
   MissionVisionSection, 
-  HeritageSection 
 } from '@/components/about';
 import { getAboutMetadata } from '../metadata/about';
 
@@ -18,7 +17,6 @@ export default function AboutPage() {
       <HeroSection />
       <StorySection />
       <MissionVisionSection />
-      <HeritageSection />
     </div>
   );
 }

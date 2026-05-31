@@ -24,9 +24,7 @@ export const testimonials={
 
 export const about ={
   aboutUsHero: '/assets/images/about/about_us_hero.png',
-  ourStory: '/assets/images/about/shop.jpg',
-  firstShop: '/assets/images/about/shop2.jpg',
-  secondSh: '/assets/images/about/shop.jpg',
+  ourStory: '/assets/images/about/shop2.jpg',
 }
 
 // ─── Service Images ──────────────────────────────────────
@@ -71,13 +69,54 @@ export const NECKLACE_IMAGES = {
   vlineDiamond: '/assets/images/necklaces/necklace4.jpg',
 } as const;
 
+// ─── Product Images - Earrings ────────────────────────────────
+export const EARRING_IMAGES = {
+  earring1: '/assets/images/earings/earings1.jpg',
+  earring2: '/assets/images/earings/earings2.jpg',
+  earring3: '/assets/images/earings/earings3.jpg',
+  earring4: '/assets/images/earings/earings4.jpg',
+  earring5: '/assets/images/earings/earings5.jpg',
+  earring6: '/assets/images/earings/earings6.jpg',
+  earring7: '/assets/images/earings/earings7.jpg',
+} as const;
+
+// ─── Product Images - Hand Cuff ───────────────────────────────
+export const HANDCUFF_IMAGES = {
+  handcuff1: '/assets/images/hand cuff/hand_cuff1.jpg',
+  handcuff2: '/assets/images/hand cuff/hand_cuff2.jpg',
+  handcuff3: '/assets/images/hand cuff/hand_cuff3.jpg',
+  handcuff4: '/assets/images/hand cuff/hand_cuff4.jpg',
+  handcuff5: '/assets/images/hand cuff/hand_cuff5.jpg',
+} as const;
+
+// ─── Product Images - Sets ────────────────────────────────────
+export const SET_IMAGES = {
+  set1: '/assets/images/sets/sets1.jpg',
+  set2: '/assets/images/sets/sets2.jpg',
+  set3: '/assets/images/sets/sets3.jpg',
+  set4: '/assets/images/sets/sets4.jpg',
+  set5: '/assets/images/sets/sets5.jpg',
+  set6: '/assets/images/sets/sets6.jpg',
+  set7: '/assets/images/sets/sets7.jpg',
+  set8: '/assets/images/sets/sets8.jpg',
+  set9: '/assets/images/sets/sets9.jpg',
+} as const;
+
 // ─── Product Images - Bracelets ────────────────────────────────
 export const BRACELET_IMAGES = {
-  cuff: '/assets/images/bracelets/bracelet1.jpg',
-  tennis: '/assets/images/bracelets/bracelet2.jpg',
-  branchPave: '/assets/images/bracelets/bracelet3.jpg',
-  charmsGold: '/assets/images/bracelets/bracelet4.jpg',
-  tennisWorn: '/assets/images/bracelets/bracelet5.jpg',
+  bracelet1: '/assets/images/bracelets/bracelets1.jpg',
+  bracelet2: '/assets/images/bracelets/bracelets2.jpg',
+  bracelet3: '/assets/images/bracelets/bracelets3.jpg',
+  bracelet4: '/assets/images/bracelets/bracelets4.jpg',
+  bracelet5: '/assets/images/bracelets/bracelets5.jpg',
+  bracelet6: '/assets/images/bracelets/bracelets6.jpg',
+  bracelet7: '/assets/images/bracelets/bracelets7.jpg',
+  bracelet8: '/assets/images/bracelets/bracelets8.jpg',
+  bracelet9: '/assets/images/bracelets/bracelets9.jpg',
+  bracelet10: '/assets/images/bracelets/bracelets10.jpg',
+  bracelet11: '/assets/images/bracelets/bracelets11.jpg',
+  bracelet12: '/assets/images/bracelets/bracelets12.jpg',
+  bracelet13: '/assets/images/bracelets/bracelets13.jpg',
 } as const;
 
 // ─── Gallery Images ────────────────────────────────────────────
@@ -103,11 +142,10 @@ export const BRAND_IMAGES = {
 // ─── Category Images (for shop by category sections) ───────────
 export const CATEGORY_IMAGES = {
   rings: RING_IMAGES.exquisite,
-  necklaces: NECKLACE_IMAGES.diamond,
-  bracelets: BRACELET_IMAGES.tennis,
-  earrings: '',
-  pendants: '',
-  // TODO: add earrings and pendants images when available
+  earrings: EARRING_IMAGES.earring1,
+  'hand-cuff': HANDCUFF_IMAGES.handcuff1,
+  sets: SET_IMAGES.set1,
+  bracelets: BRACELET_IMAGES.bracelet1,
 } as const;
 
 // ─── Blog Images ─────────────────────────────────────────────────
@@ -123,7 +161,9 @@ export const ALL_IMAGES = {
   heritage: HERITAGE_IMAGES,
   missionVision: MISSION_VISION_IMAGES,
   rings: RING_IMAGES,
-  necklaces: NECKLACE_IMAGES,
+  earrings: EARRING_IMAGES,
+  'hand-cuff': HANDCUFF_IMAGES,
+  sets: SET_IMAGES,
   bracelets: BRACELET_IMAGES,
   gallery: GALLERY_IMAGES,
   brand: BRAND_IMAGES,
@@ -133,32 +173,63 @@ export const ALL_IMAGES = {
 
 // ─── IMAGES Export (for products.ts compatibility) ───────────────
 export const IMAGES = {
-  // Gallery images
-  necklaceVlineDiamond: NECKLACE_IMAGES.vlineDiamond,
-  setGoldShirt: GALLERY_IMAGES.goldShirt,
-  ringLeafPave: GALLERY_IMAGES.ringLeafPave,
-  ringGoldStack: GALLERY_IMAGES.ringGoldStack,
-  ringsDiamondStackHand: GALLERY_IMAGES.ringsDiamondStackHand,
-  ringPureGoldBand: GALLERY_IMAGES.ringPureGoldBand,
-  ringPaveBand: GALLERY_IMAGES.ringPaveBand,
-  
   // Ring images
-  ringWhite: RING_IMAGES.whiteGold,
-  ringTwoTone: RING_IMAGES.twoTone,
-  ringEmerald: RING_IMAGES.emerald,
-  ringExquisite: RING_IMAGES.exquisite,
-  ringCurved: RING_IMAGES.curved,
+  ring1: RING_IMAGES.curved,
+  ring2: RING_IMAGES.emerald,
+  ring3: RING_IMAGES.exquisite,
+  ring4: RING_IMAGES.twoTone,
+  ring5: RING_IMAGES.whiteGold,
+  ring6: GALLERY_IMAGES.ringGoldStack,
+  ring7: GALLERY_IMAGES.ringLeafPave,
+  ring8: GALLERY_IMAGES.ringPaveBand,
+  ring9: GALLERY_IMAGES.ringPureGoldBand,
+  ring10: GALLERY_IMAGES.ringsDiamondStackHand,
+  ring11: '/assets/images/rings/ring10.jpg',
+  ring12: '/assets/images/rings/ring11.jpg',
+  ring13: '/assets/images/rings/ring12.jpg',
+  ring14: '/assets/images/rings/ring13.jpg',
+  ring15: '/assets/images/rings/ring14.jpg',
+  ring16: '/assets/images/rings/ring15.jpg',
   
-  // Necklace images
-  necklaceGoldCuban: NECKLACE_IMAGES.goldCuban,
-  necklaceDiamond: NECKLACE_IMAGES.diamond,
-  necklaceGoldChain: NECKLACE_IMAGES.goldChain,
+  // Earring images
+  earring1: EARRING_IMAGES.earring1,
+  earring2: EARRING_IMAGES.earring2,
+  earring3: EARRING_IMAGES.earring3,
+  earring4: EARRING_IMAGES.earring4,
+  earring5: EARRING_IMAGES.earring5,
+  earring6: EARRING_IMAGES.earring6,
+  earring7: EARRING_IMAGES.earring7,
+  
+  // Hand cuff images
+  handcuff1: HANDCUFF_IMAGES.handcuff1,
+  handcuff2: HANDCUFF_IMAGES.handcuff2,
+  handcuff3: HANDCUFF_IMAGES.handcuff3,
+  handcuff4: HANDCUFF_IMAGES.handcuff4,
+  handcuff5: HANDCUFF_IMAGES.handcuff5,
+  
+  // Set images
+  set1: SET_IMAGES.set1,
+  set2: SET_IMAGES.set2,
+  set3: SET_IMAGES.set3,
+  set4: SET_IMAGES.set4,
+  set5: SET_IMAGES.set5,
+  set6: SET_IMAGES.set6,
+  set7: SET_IMAGES.set7,
+  set8: SET_IMAGES.set8,
+  set9: SET_IMAGES.set9,
   
   // Bracelet images
-  braceletBranchPave: BRACELET_IMAGES.branchPave,
-  braceletCharmsGold: BRACELET_IMAGES.charmsGold,
-  braceletTennisWorn: BRACELET_IMAGES.tennisWorn,
-  braceletTennis: BRACELET_IMAGES.tennis,
-  braceletCuff: BRACELET_IMAGES.cuff,
-  
+  bracelet1: BRACELET_IMAGES.bracelet1,
+  bracelet2: BRACELET_IMAGES.bracelet2,
+  bracelet3: BRACELET_IMAGES.bracelet3,
+  bracelet4: BRACELET_IMAGES.bracelet4,
+  bracelet5: BRACELET_IMAGES.bracelet5,
+  bracelet6: BRACELET_IMAGES.bracelet6,
+  bracelet7: BRACELET_IMAGES.bracelet7,
+  bracelet8: BRACELET_IMAGES.bracelet8,
+  bracelet9: BRACELET_IMAGES.bracelet9,
+  bracelet10: BRACELET_IMAGES.bracelet10,
+  bracelet11: BRACELET_IMAGES.bracelet11,
+  bracelet12: BRACELET_IMAGES.bracelet12,
+  bracelet13: BRACELET_IMAGES.bracelet13,
 } as const;

@@ -6,18 +6,18 @@ import { getContactMetadata } from '../metadata/contact';
 
 
 const CONTACT = {
-  phoneTel: "+963981117927",
-  phoneDisplay: "0981 117 927",
-  mapsEmbed: "https://www.google.com/maps?q=33.5204193,36.2920914&output=embed",
+  phoneTel: "+963948973646",
+  phoneDisplay: "098 948 973 646",
+  mapsEmbed: "https://www.google.com/maps?q=Aleppo+Syria&output=embed",
   hours: [
     { day: "Saturday - Thursday", dayAr: "السبت - الخميس", time: "10:00 AM - 8:30 PM" },
     { day: "Friday", dayAr: "الجمعة", time: "Closed" },
   ],
   address: {
-    line1: "Al-Salihiya, Next to Abou Abdo Juice",
-    line1Ar: "الصالحية، بجانب عصير أبو عبدو",
-    line2: "Damascus, Syria",
-    line2Ar: "دمشق، سوريا"
+    line1: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال",
+    line1Ar: "محافظة حلب، شارع الفرقان، شارع مفرروشات الفتال",
+    line2: "Aleppo, Syria",
+    line2Ar: "حلب، سوريا"
   }
 };
 
@@ -98,7 +98,7 @@ export default async function ContactPage() {
 
               <div className="pt-4">
                 <a
-                  href="https://wa.me/963981117927?text=Hello Rovana Jewelry, I'd like to inquire about..."
+                  href="https://wa.me/963948973646?text=Hello Layan Jewellery, I'd like to inquire about..."
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-[#E6C687] hover:bg-[#b8956f] text-white text-sm font-semibold uppercase tracking-widest px-8 py-3 transition-colors duration-200"
@@ -116,7 +116,7 @@ export default async function ContactPage() {
       <section className="bg-[#f9f7f5]">
         <div className="aspect-[16/9] w-full md:aspect-[21/9]">
           <iframe
-            title="Rovana Jewelry on Google Maps"
+            title="Layan Jewellery on Google Maps"
             src={CONTACT.mapsEmbed}
             className="h-full w-full border-0 grayscale-[0.4]"
             loading="lazy"
