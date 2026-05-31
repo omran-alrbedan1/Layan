@@ -42,7 +42,7 @@ export async function generateMetadata({
       title: "Layan Jewellery — Fine Gold & Custom Jewelry",
       description: "Your trusted destination for the finest gold and diamond jewelry in Aleppo, Syria.",
       images: [{
-        url: "/og-image.jpg",
+        url: `${baseUrl}/assets/og-default.jpg`,
         width: 1200,
         height: 630,
         alt: "Layan Jewellery Collection",
